@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: TikTokDoubleTapLike(
+          child: TikTokTapHeart(
             child: Container(
               width: 300,
               height: 500,
