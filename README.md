@@ -11,11 +11,11 @@
 
 ## Installation
 
-To use this package, add `double_tap_like` as a dependency in your `pubspec.yaml` file:
+To use this package, add `tiktok_tap_heart_animation` as a dependency in your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  double_tap_like: ^0.0.1
+     tiktok_tap_heart_animation: ^1.0.1
 
 Example
 Here’s a more advanced example with custom animation duration and icon settings:
