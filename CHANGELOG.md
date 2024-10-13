@@ -1,5 +1,11 @@
-
 # Change Log
+
+## [1.0.2] - 2024-10-13
+- Optimized performance for larger screens and higher-resolution displays.
+- Added support for customizing the color of the heart icon (`likeIconColor`).
+- Fixed minor bugs related to `onLike` callback execution when tapped rapidly.
+- Improved accessibility by adding semantic labels for the heart icon.
+- Enhanced compatibility with Flutter 3.x versions.
 
 ## [1.0.1] - 2024-10-13
 - Improved double-tap like animation performance.
@@ -14,4 +20,4 @@
 - Customizable heart icon (`likeWidget`) for double-tap effect.
 - Added parameters for setting the size of the like icon (`likeWidth`, `likeHeight`).
 - `onLike` callback added for executing logic on a double-tap event.
-- Provided example app demonstrating the use of the `TikTokDoubleTapLike`.
+- Provided example app demonstrating the use of the `TikTokTapHeart`.
