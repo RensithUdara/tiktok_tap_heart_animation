@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class TikTokDoubleTapLike extends StatefulWidget {
+class TikTokTapHeart extends StatefulWidget {
   final Widget child;
   final Function onLike;
   final Duration animationDuration;
   final Color likeIconColor;
   final double likeIconSize;
 
-  const TikTokDoubleTapLike({
+  const TikTokTapHeart({
     Key? key,
     required this.child,
     required this.onLike,
@@ -17,10 +17,10 @@ class TikTokDoubleTapLike extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  _TikTokDoubleTapLikeState createState() => _TikTokDoubleTapLikeState();
+  _TikTokTapHeartState createState() => _TikTokTapHeartState();
 }
 
-class _TikTokDoubleTapLikeState extends State<TikTokDoubleTapLike>
+class _TikTokTapHeartState extends State<TikTokTapHeart>
     with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<double> _animation;

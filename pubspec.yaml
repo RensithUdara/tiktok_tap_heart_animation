@@ -1,4 +1,4 @@
-name: tiktok_double_tap_like
+name: tiktok_tap_heart_animation
 description: A Flutter package that provides a widget for a TikTok-like double-tap-to-like feature, with customizable animation, icon color, and size.
 
 version: 1.0.1
@@ -13,6 +13,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-    
+
 dev_dependencies:
-  tiktok_tap_heart_animation: ^1.0.0
+  flutter_test:
+    sdk: flutter
