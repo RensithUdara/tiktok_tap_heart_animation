@@ -1,0 +1,15 @@
+name: tiktok_tap_heart_animation
+description: A widget for TikTok-like double tap to like functionality.
+version: 1.0.0
+# author: Rensith Udara Gonalagoda <rensithudaragonalagoda@gmail.com>
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
